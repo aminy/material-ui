@@ -45,7 +45,7 @@ class GridList extends Component {
   static defaultProps = {
     cols: 2,
     padding: 4,
-    cellHeight: 180,
+    cellHeight: 'auto',
   };
 
   static contextTypes = {

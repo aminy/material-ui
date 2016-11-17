@@ -47,7 +47,8 @@ function getStyles(props, context) {
       transition: transitions.easeOut(),
       top: 0,
     },
-    overlayWhenHovered: {
+    overlayWhenHovered: props.overlayWhenHovered ||
++   {
       backgroundColor: fade(iconColor, 0.4),
     },
     icon: {
